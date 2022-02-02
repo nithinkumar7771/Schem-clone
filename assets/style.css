@@ -1,0 +1,101 @@
+.header{
+    position:absolute;
+    top:0;left:0;right:0;bottom:0;
+} 
+
+.navbar{
+    background-color: transparent!important;
+    /* z-index: 1; */
+    position: fixed;
+    /* border:solid 1px; */
+}
+.navbar-nav {
+    margin: auto;
+    margin-right: 0;
+    padding:1rem 2rem;
+    
+}
+.main{
+
+    height:100vh;
+    /* background-color: rgb(230, 187, 132); */
+
+    
+    background-image: url("C:\Users\ameti\Desktop\Schemcon\mill.jpg");
+    /* height:100%;
+    background-position:top;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-image : url("mill.jpg");
+    opacity:0.45;
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+
+    z-index : -1; */
+
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.main-text{
+    text-align:center;
+}
+
+.second{
+    height:100vh;
+    padding:5rem;
+    /* background-color: antiquewhite; */
+    /* background-image: url("mill.jpg"); */
+
+}
+
+.speakers{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    padding:2rem;
+}
+
+.schedule{
+    height:100vh;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    /* background-color; */
+    /* background-color: #e5e8f5; */
+}
+
+.date{
+    padding:1rem;
+}
+.imp-dates{
+    color:white;
+    font-weight: bolder;
+    padding:0.5rem;
+    display:inline;
+    background-color: #18d26e;
+    text-align: center;
+    border-radius: 20px;
+}
+.dates-2{
+    color:#18d26e;
+    font-weight: bolder;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+
+}
+.note{
+    color:white;
+    font-weight: bolder;
+    padding:0.5rem;
+    display:inline;
+    background-color: #18d26e;
+    text-align: center;
+    border-radius: 20px;
+}
